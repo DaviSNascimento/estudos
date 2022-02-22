@@ -1,0 +1,17 @@
+
+
+h1#Title {
+    color: rgb(186, 255, 121);
+    font-family: sans-serif;
+    font-size: 3em
+}
+p.paragrafo {
+    font-size: 20px;
+    border: hidden;
+    padding: 5px;
+    margin: 10px;
+    text-align: justify;
+         
+
+
+}

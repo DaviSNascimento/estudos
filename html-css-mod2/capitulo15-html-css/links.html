@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Persoalizando links</title>
+    <style>
+        /*
+            RESUMO GERAL
+        Seletores personalizados:
+        
+            #  = id
+            .  = class
+            :  = pseudo-class
+            :: = pseudo-element
+            >  = children
+
+        */
+        
+        
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(128, 128, 128);
+        }
+        a {
+            color: green;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        a:visited {
+            color: greenyellow;
+        }
+
+        a:hover {
+            color: palevioletred;
+            text-decoration: underline;
+        }
+        a:active {
+            color: royalblue;
+        }
+        a.especial::before {
+            
+            content: '➠';
+        }
+
+        a::after {
+            content: '[link]';
+            text-decoration: none;
+            font-weight: normal;
+            color: rgba(70, 70, 70, 0.699);
+        }
+        a.especial::after {
+            content: '❤';
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>Persoalizando Links </h1>
+    <ul>
+        <li>
+            <a href="https://github.com/gustavoguanabara/html-css/blob/master/aulas-pdf/15%20-Seletores%20personalizados.pdf" target="_blank">PDF's GitHub</a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/" target="_blank">youtube</a>
+        </li>
+        <li>
+            <a href="https://www.google.com" target="_blank" class="especial">google</a>
+        </li>
+
+
+    </ul>
+
+
+
+</body>
+</html>

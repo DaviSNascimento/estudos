@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box models</title>
+    <style>
+        h1 {
+            background-color: darkgray;
+            height: 43px;
+            width: 296px;
+           
+            /* 
+            border-width: 10px;
+            border-style: solid;
+            border-color: rgba(63, 122, 122, 0.432);
+            */   
+                border: 10px solid rgba(63, 122, 122, 0.432);
+        
+            /*
+            padding-top: 40px;
+            padding-right: 40px;
+            padding-bottom: 40px;
+            padding-left: 40px;
+            */
+                padding: 40px;
+
+            /*
+            MARGEM SIMPLIFICADA
+            margin: 50px 50px 100px 100px;
+            */
+                margin: auto;
+            
+            /*
+            outline-width: 5px;
+            outline-style: dashed;
+            outline-color: rgb(192, 111, 11);
+            */
+
+                outline: 5px dashed rgb(192, 111, 11);
+          }
+        p > a {
+            /*
+            border-width: 5px;
+            border-style: solid;
+            border-color: darkgrey;
+            */
+                border: 5px solid darkgrey;
+            
+            /*
+            padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;
+            */
+                padding: 10px;     
+
+        
+                margin: 50px;
+        }
+
+        /* SHORTHAND:*gira no sentido horário*
+            top; right; bottom; left.
+
+            margin: 10px 20px 30px 40px;
+
+
+                margin-top: 10px;
+                margin-right: 20px;
+                margin-bottom: 30px;
+                margin-left: 40px;
+
+                margin: auto; (centraliza o conteúdo baseado na margem)
+
+            
+            border-width: 5px;
+            border-style: solid;
+            border-color: darkgrey;
+
+            Simplificado:
+                border: 5px solid darkgrey;
+
+
+        */
+
+    </style>
+</head>
+<body>
+    <h1>Exemplo de box-level</h1>
+     <p>Paragrafos também são exemplos de box-level, mas os <a href="#">links sao exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona.</p>
+
+
+
+
+</body>
+</html>

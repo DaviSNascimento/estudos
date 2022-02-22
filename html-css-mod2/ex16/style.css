@@ -1,0 +1,23 @@
+    p {
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #d1d1d1;
+    
+
+}
+
+    body {
+        background-color: rgb(49, 49, 49);
+
+
+
+}
+    h2 {
+
+        border: #d1d1d1 solid 1px;
+        margin-block-start: auto;
+        margin-block-end: auto;
+        margin-inline-start: 0px;
+        margin-inline-end: 1100px;
+
+}

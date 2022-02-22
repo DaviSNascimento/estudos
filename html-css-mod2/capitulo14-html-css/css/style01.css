@@ -1,0 +1,39 @@
+
+body{
+    background-attachment: fixed;
+background-color: rgba(235, 215, 215, 0.836);
+
+}
+
+h1, h2 {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align:center;
+    /* 
+    Medidas absolutas
+    cm, mm, in, px pt pc     
+    
+    medidas relativas
+    em, ex, rem, vw, vh, %
+    
+    recomendações da W3C: 
+    medida absoluta: px
+    medida relaiva: em
+    16px = 1em
+    */
+
+}
+    p {
+    /* shorthand font
+        -font-style -> font-weight -> font-size -> font-family
+           
+        font-family: 'Work sans' , sans-serif;
+        font-weight: bolder;
+        font-size: 3m;
+        font-style: italic;    
+    */
+    font: italic bold 3m  'Work Sans', sans-serif;
+
+
+
+
+}

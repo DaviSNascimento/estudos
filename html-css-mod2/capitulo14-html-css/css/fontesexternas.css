@@ -1,0 +1,32 @@
+@font-face{
+    font-family:'retro';
+    src: url('/fonts/retro.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+    
+    /*
+    Tipos de Format()
+        - opentype(otf)
+        - truetype(ttf)
+        - embedded-opentype
+        - truetype-aat(Apple Advanced typography)
+        - svg
+    */
+}
+@font-face{
+    font-family: 'lemon';
+    src: url('/fonts/Lemon\ Tea.ttf') format(truetype);
+    font-weight: normal;
+    font-style: normal;
+}
+h1{
+    font-family: 'retro' sans-serif;
+    font-weight: normal;
+    font-style: normal;
+}
+p{
+    font-family: 'lemon';
+    font-weight: normal;
+    font-style: normal;
+
+}
